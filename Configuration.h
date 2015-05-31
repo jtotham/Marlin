@@ -145,7 +145,7 @@
 // 52 is 200k thermistor - ATC Semitec 204GT-2 (1k pullup)
 // 55 is 100k thermistor - ATC Semitec 104GT-2 (Used in ParCan) (1k pullup)
 
-#define TEMP_SENSOR_0 -1
+#define TEMP_SENSOR_0 1
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 1
 #define TEMP_SENSOR_BED 0
@@ -196,9 +196,10 @@
 
 // If you are using a preconfigured hotend then you can use one of the value sets by uncommenting it
 // J-Head with 12v 40W heater cartridge
-#define  DEFAULT_Kp 15.34
-#define  DEFAULT_Ki 1.57
-#define  DEFAULT_Kd 37.45
+#Auto PID Tuned 31052015 with small heater block, 40W and Thermistor
+#define  DEFAULT_Kp 46.24
+#define  DEFAULT_Ki 5.27
+#define  DEFAULT_Kd 101.52
 
 // Makergear
 //    #define  DEFAULT_Kp 7.0
